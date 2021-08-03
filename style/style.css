@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --preto: #0D0D0D;
+    --marrom: #8C1C03;
+    --bege: #F26938;
+    --salmao: #F29C50;
+    --areia: #F2DAAC;
+
+}
+
+body {
+    background-image: url(../images/bg-mobile-blur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 600px) {
+    body {
+        background-image: url(../images/bg-desktop-3.jpg);
+    }
+
+}
+
+#main {
+    display: block;
+    width: 100%;
+}
+
+#controle_form {
+    display: block;
+    max-width: 70%;
+    background-color: rgb(255, 255, 255);
+    color: var(--preto);
+    border-radius: 0.3rem;
+    filter: opacity(0.77);
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+#header_logo {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#header_logo img {
+    width: 100%;
+}
+
