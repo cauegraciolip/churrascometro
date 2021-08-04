@@ -20,29 +20,49 @@
         <section id="controle_form">
 
             <header id="header_logo">
-                <img src="images/banner-churrascometro.png" alt="logo">
+                <img src="images/banner-churrascometro.png" alt="logo" id="logo">
+                <p id="descricao">Calcule a quantidade de comida necessária para o seu churrasco!</p>
             </header>
-
-            <form action="submit">
-                <input type="number" name="adultos" id="adultos" placeholder="Nº ADULTOS">
+            <hr>
+            <form action="submit" id="formulario">
+                <div
+                class="controle_input">
+                    <i class="fas fa-male male input_icon"></i>
+                    <input type="number" name="adultos" id="adultos" placeholder="Nº Adultos" class="input_form">
+                </div>
+                <div
+                class="controle_input">
+                    <i class="fas fa-child child input_icon"></i>
+                    <input type="number" name="criancas" id="criancas" placeholder="Nº Crianças" class="input_form">
+                </div>
+                <div
+                class="controle_input">
+                    <i class="fas fa-clock input_icon"></i>
+                    <input type="number" name="adultos" id="horas" placeholder="Quantidade horas" class="input_form">
+                </div>
             </form>
-            
 
-        </section>        
-       
-    </main>
-    
-    <i class="fas fa-child"></i>
-    <i class="fas fa-female"></i>
-    <i class="fas fa-male"></i>
+            <hr>
 
-    <i class="fas fa-venus"></i>
-    <i class="fas fa-mars"></i>
-
-
-    <i class="fas fa-drumstick-bite"></i>
-    <i class="fas fa-beer"></i>
-    
+            <footer id="controle_resultado">
+                <div class="resultado">
+                    <i class="fas fa-drumstick-bite"></i>
+                    <i class="fas fa-arrow-right seta"></i>
+                    <div id="carne" class="texto">Quantidade carne</div>
+                </div>
+                <div class="resultado">
+                    <i class="fas fa-beer"></i>
+                    <i class="fas fa-arrow-right seta"></i>
+                    <div id="cerveja" class="texto">Quantidade cerveja</div>
+                </div>
+                <div class="resultado">
+                    <i class="fab fa-gulp"></i>
+                    <i class="fas fa-arrow-right seta"></i>
+                    <div id="refri" class="texto">Quantidade bebida</div>
+                </div>
+            </footer>
+        </section>       
+    </main>   
 
 <script src="app/script.js"></script>   
 </body>
