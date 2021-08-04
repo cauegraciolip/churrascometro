@@ -25,11 +25,6 @@
 
 }
 
-body {
-    background-image: url(../images/sky-black.jpg);
-    background-repeat: no-repeat;
-}
-
 #main {
     display: block;
     width: auto;
@@ -133,6 +128,31 @@ hr {
 
 .child {
     padding-left: 0.1rem;
+}
+
+#btn {
+    display: block;
+    margin: 0.6rem auto;
+}
+
+#btn_calc {
+    background-color: #16E65D;
+    padding: 0.3rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+#btn_zero {
+    background-color: #E61C27;
+    padding: 0.3rem;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
 }
 
 @media (min-width: 700px) {
