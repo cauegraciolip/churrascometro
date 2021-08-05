@@ -1,6 +1,6 @@
 # Churrascomêtro
 
-## Página que calcular a quantidade de carnee bebida que será consumida em um churrasco.
+## Página que calcular a quantidade de carne e bebida que será consumida em um churrasco.
 
  O projeto consiste em construir um código que calcule a quantidade de carnes e bebidas em um churrasco, variando de acordo com a quantidade de adultos e crianças. Os parametros iniciais para o calculo são os seguintes:
 
