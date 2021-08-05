@@ -3,3 +3,23 @@ Cerveja - 1200mL/pessoas -- + 6 horas = 2000ml
 Refrigerante - 1000mL -- + 6 horas = 1500mL
 
 Criancas valem por 0.5
+
+se horas < 6 {
+
+    var carneMenor = numero * 400
+
+    var cervejaMenor = numero * 1200
+
+    var refriMenor = numero * 1000
+
+} se não {
+
+    var carneSeis = numero * 650
+
+    var cervejaSeis = numero * 2000
+
+    var refriSeis = numero * 1500
+
+}
+
+elemento.innerHTML = carneMenor

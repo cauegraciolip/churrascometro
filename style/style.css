@@ -25,6 +25,10 @@
 
 }
 
+body {
+    background-image: url(../images/bg.jpg);
+}
+
 #main {
     display: block;
     width: auto;
@@ -34,11 +38,12 @@
 #controle_form {
     display: block;
     max-width: 75%;
-    background-color: rgb(255, 255, 255);
+    background-color: #e6ebec;
+    background-image: linear-gradient(43deg, #e6ebec 0%, #e4e4e4 46%, #f9f9f9 100%);
     color: var(--preto);
     border-radius: 0.5rem;
-    filter: opacity(0.77);
-    margin: 1rem auto;
+    filter: opacity(0.75);
+    margin: 0.4rem auto;
     border: 1px solid var(--marrom);
 }
 
@@ -48,7 +53,9 @@
 }
 
 #logo {
+    display: flex;
     width: 100%;
+    margin: 0 auto;
 }
 
 #descricao {
@@ -84,13 +91,17 @@ hr {
     #descricao {
         font-size: 0.9rem;
     }
+
+    #logo {
+        width: 80%;
+    }
 }
 
 #formulario {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 1rem;
+    margin-top: 0.7rem;
     margin-bottom: 0.7rem;
 }
 
@@ -176,6 +187,7 @@ hr {
 #controle_resultado {
     margin: 0 auto;
     margin-top: 0.7rem;
+    display: none;
 }
 
 .resultado {

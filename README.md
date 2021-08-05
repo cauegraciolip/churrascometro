@@ -1,6 +1,6 @@
 # Churrascomêtro
 
-#### Página que calcular a quantidade de carnee bebida que será consumida em um churrasco.
+## Página que calcular a quantidade de carnee bebida que será consumida em um churrasco.
 
  O projeto consiste em construir um código que calcule a quantidade de carnes e bebidas em um churrasco, variando de acordo com a quantidade de adultos e crianças. Os parametros iniciais para o calculo são os seguintes:
 
@@ -9,7 +9,7 @@
 - Refrigerante ou água - 1000 ml por pessoa, se o churrasco durar mais de 6 horas 1500 ml por pessoa.    
 - Criança equivale a 1/2 pessoa.
 
-- Nesta aplicação foi utilizado as seguintes tecnologias:
+#### Nesta aplicação foi utilizado as seguintes tecnologias:
 
 * HTML;
 
